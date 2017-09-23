@@ -1,0 +1,16 @@
+<?php
+namespace App\laboratorio\controllers;
+
+class Principal
+{
+    function __construct()
+    {
+        Role('laboratorio');
+    }
+
+    public function index()
+    {
+		View();
+    }
+}
+
